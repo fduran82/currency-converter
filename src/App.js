@@ -44,7 +44,7 @@ function App() {
             type='text'
             value={amount}
             onChange={(e) => setAmount(Number(e.target.value))}
-            disabled={isLoading}
+            // disabled={isLoading}
           />
           <div className='App-input-cur'>
             <select
